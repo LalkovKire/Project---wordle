@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body {
+    background-color: rgb(220, 231, 230);
+    opacity: 1;
+}
+.ui-widget-overlay.custom-overlay
+{
+    background-color: rgba(220, 231, 230, 0.8);
+    background-image: none;
+    opacity: 0.9;
+    z-index: 1040;    
+}
+#mainContainer {
+    padding: 0;
+    text-align: center;
+    width: 700px;
+    display: block;
+}
+#mainContainer h1,h4,span {
+    font-family: 'Montserrat', sans-serif;
+}
+#gameBoard {
+    width: 62.5%;
+    display: inline-block;
+}
+.box {
+    background: #dce7e6 ;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    float: left;
+    border: gray solid 3px;
+    height: 80px;
+    width: 80.88px;
+    font-size: 70px;
+    margin: 3px;
+}
+.ui-dialog-buttonpane {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ui-widget-content{
+    text-align: center;
+    background: rgba(161, 202, 201, 0.5) !important;
+}
+.ui-dialog .ui-dialog-titlebar {
+    background-color: rgb(96, 186, 174);
+}
+.ui-dialog .ui-dialog-title {
+    padding-left: 30px;
+    text-align: center;
+    width: 100%;
+  }
+.box2 {
+    background: white !important;
+    border: gray solid 3px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    float: left;
+    height: 80px;
+    width: 80.88px;
+    font-size: 70px;
+    margin: 3px;
+}
+.box2:focus {
+    outline: none;
+    border: rgb(26, 33, 34);
+    border-style: dashed;
+}
+#btns {
+    height: 45px;
+    width: 60%;
+}
+#btns button {
+    border: gray solid 1px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(157, 204, 212);
+   border-radius: 7px;
+   width: 100px;
+   height: 40px;
+   cursor: pointer;
+}
+#same {
+    background: #1cb826;
+}
+#diff {
+    background: yellow;
+}
